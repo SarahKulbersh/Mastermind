@@ -1,0 +1,21 @@
+body{
+    background-image: url(../pics/board-game-collection_23-2148700964.jpg);
+  }
+
+  .text{
+      background-color: #008CBA;
+      padding: 5% 13% 5% 13%;
+      font-size: 30px;
+      font-family: cursive;
+      margin: 12% 15%;
+      border:white;
+      border-style:solid;
+      border-width: 10px;
+      color: white;
+      text-align: center;
+  }
+
+.text:hover{
+background-color: #004d66;
+
+}

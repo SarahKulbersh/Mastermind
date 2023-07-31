@@ -1,0 +1,37 @@
+body{
+    background-image:url(../pics/see.jpg);
+    background-size: 103%;
+}
+#see{
+    width: 100%;
+    height: 100%;
+}
+
+
+#win2{
+    height: 40px;
+    width: 50px;
+    margin-left: 37.5%;
+    margin-top: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+#win1{
+height: 50px;
+width: 90px;
+margin-top:155px;
+margin-left: 51%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 35px;
+}
+
+
+#win3{
+    height: 40px;
+    width: 50px;
+    margin-left: 64%;
+    margin-top: -10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Master Mind</title>
+  <link rel="icon" type="image" href="../pics/4662.jpg">
+  <link rel="styleSheet" href="../CSS/MasterMindGame.css">
+
+</head>
+
+<body>
+  <label id="lableHello"></label>
+  <br />
+  <div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <h6 id="gameInstructionsText">1. guess the 4 colores the computer picked and where they are!!<br></br>2. You have 10
+      turnes to try to figure out the code. <br></br>3. A color will appear once only.<br></br>4. If you got guessed the
+      right color a white dot will appear for every color you guessed right. If you got any color in the right place a
+      black dot will appear instead of the white dot.<br></br> Go ahead!<br></br> Good luck! </h6>
+  </div>
+  <button class="openbtn" onclick="openNav()"> Game Instructions</button>
+  <br />
+  <button id="bestPlayers">🥇 Best Players</button>
+
+  <div id="all">
+    <div id="playerGuesses"></div>
+    <div id="hint"></div>
+  </div>
+  <section id="sixOptionsOfColors"></section>
+
+  <script src="../JAVASCRIPT/MasterMindGame.js"></script>
+
+  <br />
+
+  </head>
+
+  <body>
+
+    <div id="id01" class="modal">
+
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+          title="Close Modal">&times;</span>
+        <img src="../pics/2312762.jpg" Avatar" class="avatar">
+
+
+        <div class="container">
+          <button type="button" class="cancelbtn" id="btnNewGame">New game</button>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+
+        </div>
+
+  </body>
+</body>
+
+</html>
